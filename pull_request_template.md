@@ -1,13 +1,29 @@
-<!-- Link the issue: "Closes #123" or "Part of #123". If this is stacked, say what has to merge first. -->
+<!-- Skip any section that doesn't apply. A one-line fix can be one line. -->
+
+## Links
+
+<!-- "Closes #123" or "Part of #123", plus a preview or design file if there is one. If this is stacked, say what has to merge first. -->
+
+## What
+
+<!-- The changes in a few words each, so a reviewer can tell how big this is. -->
+
+-
 
 ## Why
 
-<!-- What's wrong or missing today, and why change it now? -->
+<!-- The context a reviewer needs, and that someone reading git blame in a year will want. -->
 
-## What changes
+## How
 
-<!-- What a reviewer should know. Skip anything the diff already makes obvious. -->
+<!-- Optional. The approach, what you tried that didn't work, and anything a reviewer might ask "why this way?" about. -->
 
-## How you tested it
+## Test steps
 
-<!-- What you ran or clicked through, and anything you couldn't test. -->
+<!-- One action or check per line, so a reviewer doesn't have to guess. For infra, paste the plan summary. -->
+
+1.
+
+## Other notes
+
+<!-- Optional. Blockers, known issues left out of scope, follow-ups. -->
